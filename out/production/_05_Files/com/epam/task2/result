@@ -1,0 +1,61 @@
+1. Поиск имени файла с максимальным количеством букв ‘s’ в имени,
+вывод пути к нему.
+
+FileName : C:\data\1ss.txt, count 's' = 2
+FileName : C:\data\data2\data3\sout.txt, count 's' = 1
+FileName : C:\data\data2\sisters.txt, count 's' = 3
+FileName : C:\data\data2\data3\spring.txt, count 's' = 1
+FileName : C:\data\data2\data4\sssssssss.txt, count 's' = 9
+File with max count 's' in name : C:\data\data2\data4\sssssssss.txt
+
+
+2. Top-5 файлов с самым большим размером
+
+List of files:
+FileName : C:\data\1ss.txt, length = 95 byte
+FileName : C:\data\data2\data3\Files.txt, length = 25216 byte
+FileName : C:\data\data2\data4\Vadik.txt, length = 88256 byte
+FileName : C:\data\data2\data3\sout.txt, length = 12610 byte
+FileName : C:\data\data2\sisters.txt, length = 6402 byte
+FileName : C:\data\data2\data3\spring.txt, length = 50432 byte
+FileName : C:\data\data2\data4\sssssssss.txt, length = 18912 byte
+
+Top 5 largest file sizes :
+
+C:\data\data2\data4\Vadik.txt - 88256 byte
+C:\data\data2\data3\spring.txt - 50432 byte
+C:\data\data2\data3\Files.txt - 25216 byte
+C:\data\data2\data4\sssssssss.txt - 18912 byte
+C:\data\data2\data3\sout.txt - 12610 byte
+
+
+3. Средний размер файла в указанной директории или любой ее поддиректории
+
+List of files:
+FileName : C:\data\1ss.txt, length = 95 byte
+FileName : C:\data\data2\data3\Files.txt, length = 25216 byte
+FileName : C:\data\data2\data4\Vadik.txt, length = 88256 byte
+FileName : C:\data\data2\data3\sout.txt, length = 12610 byte
+FileName : C:\data\data2\sisters.txt, length = 6402 byte
+FileName : C:\data\data2\data3\spring.txt, length = 50432 byte
+FileName : C:\data\data2\data4\sssssssss.txt, length = 18912 byte
+
+Average file size = 28846 byte
+
+4. Количество файлов и папок, разбитое по первым буквам алфавита
+
+Files list:
+C:\data\uncle\mama\sssssssss.txt
+C:\data\uncle\mama\vadik.txt
+C:\data\uncle\papa\files.txt
+C:\data\uncle\papa\sout.txt
+C:\data\uncle\papa\spring.txt
+C:\data\uncle\sisters.txt
+{b=1, s=4, f=1, v=1}
+
+Folders list:
+C:\data\uncle\mama
+C:\data\uncle\papa\j
+C:\data\uncle\papa
+C:\data\uncle
+{p=1, u=1, j=1, m=1}

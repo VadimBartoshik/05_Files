@@ -1,0 +1,3 @@
+Average File Copy Time Using Streams = 1218
+Average File Copy Time Using java.nio.FileChannel = 472
+Average File Copy Time Using Files Java 7 = 8081898
